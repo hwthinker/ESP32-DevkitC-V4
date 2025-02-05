@@ -72,18 +72,18 @@ Download driver serial di  cek di https://www.wch-ic.com/products/CH9102.html. p
 
 ![](./assets/06.png)
 
-6. Pilih Tools -> Board -> ESP32 -> esp32 dev Module
+6. Pilih Tools -> Board -> ESP32 -> Doit ESP32 Devkit V1
 
-![image-20250204162927704](./assets/image-20250204162927704.png)
-
-7. Langkah berikutnya adalah memastikan Arduino mengetahui Kapasitas Flash yang tersedia. ini dilakukan dengan cara mengatur konfigurasi "Flash Size".  Pastikan  Flash anda menggunakan konfigurasi 4MB seperti pada gambar berikut
-
-![image-20250205040332497](./assets/image-20250205040332497.png)
+![image-20250205073712281](./assets/image-20250205073712281.png)
 
 8. Pastikan upload speed 921600 
+
+![image-20250205074155984](./assets/image-20250205074155984.png)
+
 8. Pastikan serial port telah sesuai, untuk mengetahui nama port serial , pada OS windows bisa menggunakan device manager
 
-![image-20250204170650089](./assets/image-20250204170650089.png)
+![image-20250204170650089-2](./assets/image-20250204170650089-2.png)
+
 
 ## Contoh Kode Program
 
