@@ -12,7 +12,7 @@
 
 ## Install Driver
 
-Board ESP32 mempunyai beberapa Varian Chip serial yaitu Board dengah chip serial CH340, CP2102, CH9102 dan beberapa variannya. Yang harus anda lakukakan adalah download driver serial terlebih dahulu dan menginstallnya di komputer anda. pastikan anda mendownload driver yang benar dengan cara mengenal chip serial dari board yang anda beli. bila salah download driver tentunya boar tersebut tidak akan dikenali dikomputer. 
+Board ESP32 hadir dalam beberapa varian chip USB-to-serial, seperti CH340, CP2102, dan CH9102. Sebelum menggunakannya, pastikan untuk mengunduh dan menginstal driver yang sesuai dengan chip serial pada board Anda. Untuk menghindari masalah koneksi, periksa terlebih dahulu jenis chip yang digunakan agar driver yang diinstal benar. Jika salah memilih, board ESP32 mungkin tidak akan terdeteksi di komputer Anda.
 
 #### CH340
 
@@ -22,32 +22,18 @@ Berikut adalah langkah-langkah untuk melakukan instalasi driver tersebut :
 
    - http://www.wch-ic.com/downloads/CH341SER_ZIP.html
    -  https://www.wch-ic.com/downloads/ch341ser_exe.html 
-   
-2. BIla memilh paket dalam bentuk zip maka terlebih dahulu lakukan extract file
 
-4. Kemudian Klik INSTALL seperti tampak pada gambar dibawah ini.
-
- ![img](./assets/Install%20CH340.png)
-
-5. Driver CH340 atau CH341 untuk Arduino sudah Ter-Install dan siap digunakan.
-
-6. Silahkan digunakan untuk Upload Program dari Arduino IDE ke Board Arduino yang anda miliki.
+---
 
 #### CP2102
 
-- https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip
+- Download Driver  di https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip
 
-
+---
 
 #### CH9102
 
-Download driver serial di  cek di https://www.wch-ic.com/products/CH9102.html. pastikan memilih yang executable biar gampang
-
-![image-20250205070458082](./assets/image-20250205070458082.png)
-
-
-
-
+- Download driver serial di  cek di https://www.wch-ic.com/products/CH9102.html. 
 
 ## Install Board
 
