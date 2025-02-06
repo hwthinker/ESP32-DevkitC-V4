@@ -1,14 +1,18 @@
-# Tutorial  ESP32 DevkitC-V4
+# Tutorial  ESP32 DevkitC-V4 dan DOIT 38P
+
+![ESP32-38P (1)](./assets/ESP32-38P%20(1).png)
+
+> [!NOTE]
+>
+> - ESP32 DevkitC V4 mempunyai LED Power jadi Saat ditancapkan LED akan menyala. Tidak ada User LED yang bisa diprogram
+> - Doit 38P tidak mempunyai LED Power. LED TX Di GPIO01
+
+| BOARD            | LED POWER | LED USER   |
+| ---------------- | --------- | ---------- |
+| ESP32 DevkitC V4 | ada       | Tidak ada  |
+| DOIT 38P         | Tidak ada | GPIO1 (TX) |
 
 
-
-| Perangkat | Pin/Alamat | Keterangan                |
-| --------- | ---------- | ------------------------- |
-| WS2812B   | GPIO16    | LED RGB addressable       |
-
-![image-20250205033044024](./assets/image-20250205033044024.png)
-
-[TOC]
 
 ## Install Driver
 
